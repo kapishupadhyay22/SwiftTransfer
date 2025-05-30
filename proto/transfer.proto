@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+package transfer;
+
+option go_package = "github.com/yourusername/dft/proto";
+
+service FileTransfer {
+  rpc SendChunk(Chunk) returns (Ack) {}
+  rpc HealthCheck(HealthRequest) returns (HealthResponse) {}
+}
+
+message Chunk {
+  bytes content = 1;
+  string checksum = 2;   // SHA-256 hash
+  int32 index = 3;       // Chunk position
+  string filename = 4;   // Original filename
+  int32 total_chunks = 5;
+  string file_id = 6;    // Unique transfer ID
+}
+
+message Ack {
+  bool success = 1;
+  string message = 2;
+}
+
+message HealthRequest {}
+
+message HealthResponse {
+  bool ready = 1;
+}
