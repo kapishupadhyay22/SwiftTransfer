@@ -51,7 +51,7 @@ func sendFile(cmd *cobra.Command, args []string) {
 	}
 
 	log.Printf("Splitting %s into chunks...", filePath)
-	chunks, err := chunker.SplitFile(filePath, chunkSize*1024*1024)
+	chunks, err := chunker.SplitFile(filePath, chunkSize*1000*1000)
 	if err != nil {
 		log.Fatalf("Error splitting file: %v", err)
 	}
