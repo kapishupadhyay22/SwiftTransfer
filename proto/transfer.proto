@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package transfer;
 
-option go_package = "github.com/yourusername/dft/proto";
+option go_package = "github.com/kapishupadhyay22/SwiftTransfer/proto";
 
 service FileTransfer {
   rpc SendChunk(Chunk) returns (Ack) {}

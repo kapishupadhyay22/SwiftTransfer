@@ -257,7 +257,7 @@ const file_proto_transfer_proto_rawDesc = "" +
 	"\x05ready\x18\x01 \x01(\bR\x05ready2\x81\x01\n" +
 	"\fFileTransfer\x12-\n" +
 	"\tSendChunk\x12\x0f.transfer.Chunk\x1a\r.transfer.Ack\"\x00\x12B\n" +
-	"\vHealthCheck\x12\x17.transfer.HealthRequest\x1a\x18.transfer.HealthResponse\"\x00B#Z!github.com/yourusername/dft/protob\x06proto3"
+	"\vHealthCheck\x12\x17.transfer.HealthRequest\x1a\x18.transfer.HealthResponse\"\x00B1Z/github.com/kapishupadhyay22/SwiftTransfer/protob\x06proto3"
 
 var (
 	file_proto_transfer_proto_rawDescOnce sync.Once
