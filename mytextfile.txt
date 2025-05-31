@@ -1,0 +1,90 @@
+If it was me, a random guy on the internet, saying this, you could have safely ignored the tweet.
+
+But… But… But… Here it is, none other than Andrej Karpathy. He was the Director of AI at Tesla and cofounder of OpenAI. So, it’s okay if we give some attention to it.
+
+Some people even took it to the next level.
+
+One of the OGs of Indie Hacking, Peter Levels, built an entire app with AI and currently made over $80,000 in just a few days.
+
+
+Although Levels is a famous guy, people might think, “Oh, he made it because of his fame and his experience.”
+
+Another guy launched something similar, and he is not that popular, like levels.
+The quicker you are to respond to something, the quicker it will get the reviews that you need.
+
+But honestly, do you think the future will be like this? You just prompt Cursor or WindSurf to code your entire app?
+
+Do you really think the future of writing code is not writing code?
+
+The idea of not writing code at all might sound like a revolutionary change or even terrifying to traditional developers.
+
+If you are a software engineer who has experience working in tech, it might be a handy tool, as you don’t need to write as much code. You just need to express what you want.
+
+But if you’re someone who has never created an actual app and instead used vibe coding to build a new one, the chances are that once you reach a certain level of complexity and reach a point where you no longer understand the code, oh boy, you’re in trouble.
+
+If you are a person who understands the ins and outs, they are going to benefit the most as you can produce quality stuff. Maybe you can even call yourself a 10X engineer.
+
+I mean, even if the code is working, sometimes it will be like duct tape
+
+
+This will be the code.
+Yes, you’ll ship faster. But you’ll spend those saved hours reverse-engineering why the AI added if (user.isHappy) { deleteDatabase(); } to your payment gateway.
+
+I’m not saying this will happen, but there is a chance that this will happen. What happens if you make a silly mistake and drop your entire database? It’s more like you need to be a 100X debugger first.
+
+But I know companies are sacking people. Old-school devs are sweating. Bootcamp grads are panicking. And CEOs? They’re already drafting layoff memos titled “Optimizing Resources in the AI Era” for their shareholders.
+
+Even if you built 100 projects and add them to your resume, your resume of “built 100 vibe apps” means nothing if you can’t fix a memory leak or understand the fundamentals or “reverse a binary tree …lol”.
+
+One thing’s certain: The AI isn’t coming for your job. But the kid who vibes 3x faster than you? He might.
+
+
+This image is apt (credit to owner)
+Thanks for checking this blog.
+
+Do clap if we are having the same thought process.
+
+Technology
+AI
+Software Development
+Programming
+3.1K
+
+
+116
+
+
+
+
+Write A Catalyst
+Published in Write A Catalyst
+109K followers
+·
+Last published just now
+Write A Catalyst and Build it into Existence.
+
+
+Follow
+Adarsh Gupta
+Written by Adarsh Gupta
+9.1K followers
+·
+131 following
+Software Engineer | JavaScript developer | Technical Writer . Work with me? adarshguptaworks@gmail.com Connect with me? twitter.com/adarsh____gupta/
+
+
+Follow
+
+Responses (116)
+Kapish Upadhyay
+Kapish Upadhyay
+﻿
+
+Cancel
+Respond
+Yogesh Datir
+Yogesh Datir
+
+Mar 26
+
+
