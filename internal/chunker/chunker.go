@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-const DefaultChunkSize = 4 * 1024 * 1024 // 4MB
+const DefaultChunkSize = 4 * 1024 * 1024 // 4MB (default)
 
 type FileChunk struct {
 	Index    int
