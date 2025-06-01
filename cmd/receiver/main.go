@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	port := "50051"
+	port := "12345"
 	if p := os.Getenv("PORT"); p != "" {
 		port = p
 	}

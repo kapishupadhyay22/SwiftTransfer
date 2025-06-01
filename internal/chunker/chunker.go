@@ -9,8 +9,6 @@ import (
 	"time"
 )
 
-const DefaultChunkSize = 4 * 1024 * 1024 // 4MB
-
 type FileChunk struct {
 	Index    int
 	Data     []byte
@@ -39,7 +37,7 @@ func SplitFile(filePath string, chunkSize int) ([]FileChunk, error) {
 		bytesRead, err := file.Read(buffer)
 		if err != nil {
 			if err == io.EOF {
-				break
+				break	// end of file, nothing more to read
 			}
 			return nil, err
 		}

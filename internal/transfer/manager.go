@@ -14,7 +14,7 @@ import (
 )
 
 type TransferManager struct {
-	Nodes     []string
+	Nodes     []string	// nodes contain the different receiver nodes
 	ChunkChan chan chunker.FileChunk
 	Wg        sync.WaitGroup
 	Progress  *int32
