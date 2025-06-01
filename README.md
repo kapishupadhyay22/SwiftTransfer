@@ -67,7 +67,7 @@ CHUNK_DIR=my_chunks PORT=6000 ./receiver
 
 ### Send to single receiver
 ```
-./sender send -n localhost:50051 -s 4 large_file.iso
+./sender send -n localhost:12345 -s 4 large_file.iso
 ```
 ### Send to multiple receivers
 ```
