@@ -68,10 +68,12 @@ CHUNK_DIR=my_chunks PORT=6000 ./receiver
 ### Send to single receiver
 ```
 ./sender send -n localhost:12345 -s 4 large_file.iso
+(replace with the name of file you want to transfer)
 ```
 ### Send to multiple receivers
 ```
 ./sender send -n 192.168.1.100:50051,192.168.1.101:50051 -s 10 video.mp4
+(replace with the name of file you want to transfer)
 ```
 Options:
 
@@ -90,6 +92,7 @@ go run scripts/assemble.go chunks/ reconstructed.iso
 ### 4. Verify Integrity
 ```
 sha256sum original_file.iso reconstructed.iso
+(replace with the name of file you want to transfer)
 ```
 # Advanced Usage 🧠
 Multiple Receiver Nodes
@@ -106,6 +109,7 @@ CHUNK_DIR=chunks2 PORT=50052 ./receiver
 ### Send file to both nodes
 ```
 ./sender send -n localhost:50051,localhost:50052 -s 8 data.bin
+(replace with the name of file you want to transfer)
 ```
 ## Combine chunks from both nodes
 ```
